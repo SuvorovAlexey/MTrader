@@ -1,0 +1,191 @@
+html, body, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham Pro', sans-serif;
+}
+
+body{
+  background: url(../img/demo/VectorBG-4.png) 20% 65% no-repeat;
+}
+
+button, a {
+  cursor: pointer;
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.purple-text {
+  font-size: 27px;
+  color: #e6d9ea;
+}
+
+/*HEADER*/
+header {
+  background: /* url(../img/header/VectorBG.png) no-repeat,*/ url(../img/header/bg.png) no-repeat;
+}
+
+header .wrapper {
+  padding-top: 146px;
+  position: relative;
+}
+
+.header--logo {
+  margin-bottom: 85px;
+  display: block;
+}
+
+.header-main-container {
+  display: flex;
+}
+
+.header-info {
+  width: 780px;
+  color: white;
+  padding-top: 200px;
+}
+
+.header-info__title, .header-info__description {
+  font-size: 81px;
+}
+
+
+.header-info__title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.header-info__description-2 {
+  font-size: 24px;
+}
+
+.header-info__description, .header-info__description-2 {
+  margin-bottom: 90px;
+}
+
+
+.header-photo {
+  position: relative;
+  overflow-y: hidden;
+  width: 910px;
+}
+
+.header--man {
+  z-index: 1;
+}
+
+.header--cow {
+  position: absolute;
+  bottom: -250px;
+  left: 49%;
+  z-index: 2;
+}
+
+.header--vector {
+  position: absolute;
+  top: 500px;
+  left: 0;
+}
+.header--vector-2 {
+  position: absolute;
+  top: 250px;
+  right: 0;
+  z-index: 0;
+}
+
+.btn {
+  padding: 15px 35px;
+  height: 45px;
+  border-radius: 35px;
+  background-color: #954499;
+  color: white;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 0 40px 5px #954499;
+  font-weight: bold;
+}
+
+/*demo*/
+#demo {
+  background: url(../img/demo/VectorBG-1.png) 2% 30% no-repeat,
+  url(../img/demo/VectorBG-2.png) 94% 40% no-repeat,
+  url(../img/demo/VectorBG-3.png) 94% 80% no-repeat;
+}
+
+
+#demo .wrapper {
+  padding: 320px 0;
+  background: url(../img/demo/cow.png) 88% 65% no-repeat,
+  url(../img/demo/laptop.png) 100% 50% no-repeat;
+}
+
+.demo-info-wrap {
+  width: 556px;
+}
+
+/*demo-features*/
+
+#demo-features {
+  background: url(../img/demo/VectorBG-2.png) 2% 70% no-repeat,
+  url(../img/demo/VectorBG-1.png) 97% 20% no-repeat;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.benefits__item {
+  height: 220px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.text--demo {
+  text-align: center;
+}
+
+
+.benefits__item--1 {
+  background-image: url(../img/demo-features/01.png);
+  margin-right: 300px;
+}
+.benefits__item--2 {
+  background-image: url(../img/demo-features/02.png);
+  margin-right: 300px;
+}
+.benefits__item--3 {
+  background-image: url(../img/demo-features/03.png);
+}
+.benefits__item--4 {
+  background-image: url(../img/demo-features/04.png);
+  margin-right: 300px;
+}
+.benefits__item--5 {
+  background-image: url(../img/demo-features/05.png);
+  margin-right: 300px;
+}
+.benefits__item--6 {
+  background-image: url(../img/demo-features/06.png);
+}
+
+/*quick-start*/
+#quick-start {
+  background-color: #fefcfd;
+}
+
+
+#quick-start .wrapper {
+  padding: 320px 0;
+  background: url(../img/quick-start/cow.png) 100% 65% no-repeat;
+}
